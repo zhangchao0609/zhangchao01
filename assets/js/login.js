@@ -51,7 +51,7 @@ $(function () {
           return layer.msg(res.message)
         }
         // 如果没有被 return 出去，证明注册成功
-        layer.msg('注册成功，请登录！')
+        layer.msg('注册成功请登录！')
         // 主动切换到登录的表单
         $('#link-login').click()
       }
